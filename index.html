@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+
+</head>
+<style>
+
+</style>
+<script>
+    function size(originSize,type){
+        type=type||"x";
+
+        var widtd=document.documentElement.clientWidth;
+        var height=document.documentElement.clientHeight;
+        var scale=0;
+        if(type=="x"){
+            scale=width/originSize*100;
+        }else if(type=="y"){
+            scale=height/originSize*100;
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+
+    }
+
+   $(function () {
+       size(1334,"y");
+
+       var mySwiper = new Swiper ('.swiper-container', {
+           direction: 'horizontal',
+
+           // 如果需要分页器
+           pagination: '.swiper-pagination'
+
+
+       })
+   })
+</script>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="bg"></div>
+            <div class="person"></div>
+            <div class="person-bg"></div>
+            <div class="word"></div>
+            <div class="word1"></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="bg"></div>
+            <div class="person2"></div>
+            <div class="liji"></div>
+            <div class="bg2"></div>
+            <div class="bg3"></div>
+            <div class="t1"></div>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+</body>
+</html>

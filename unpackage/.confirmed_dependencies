@@ -1,0 +1,11 @@
+{
+	"index.html": {
+		"resources": [
+			"js/swiper.jquery.min.js",
+			"js/swiper.animate1.0.2.min.js",
+			"js/zepto.min.js",
+			"css/swiper.min.css",
+			"js/swiper.min.js"
+		]
+	}
+}
