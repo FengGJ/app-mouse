@@ -5,7 +5,17 @@
 			"js/swiper.animate1.0.2.min.js",
 			"js/zepto.min.js",
 			"css/swiper.min.css",
-			"js/swiper.min.js"
+			"js/swiper.min.js",
+			"img/liji.png",
+			"img/bg2.png",
+			"img/bg3.png",
+			"css/index.css",
+			"img/t1.png",
+			"img/person2.png",
+			"img/background.png",
+			"img/haoshi.png",
+			"img/bg.png",
+			"img/person.png"
 		]
 	}
 }
